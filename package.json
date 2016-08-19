@@ -1,5 +1,5 @@
 {
-  "name": "devialet-expert",
+  "name": "node-devialet-expert",
   "version": "1.0.0",
   "description": "Devialet Expert Line Device Control via RS232",
   "main": "lib.js",

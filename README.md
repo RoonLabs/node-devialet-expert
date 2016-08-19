@@ -18,7 +18,7 @@ var d = new DevialetExpert();
 Listening to events:
 
 ```javascript
-d.on('status', function(status, errormessage) { });
+d.on('status', function(status) { });
 d.on('changed', function(property, value) { });
 ```
 
@@ -41,7 +41,7 @@ d.on('changed', function(property, value) { });
 * `'subsonic_filter'`
 * `'subwoofer'`
 
-Connecting to the Devialet Expert device:
+Starting/Stopping the connection to the Devialet Expert device:
 
 ```javascript
 d.start(port, baud);
@@ -49,3 +49,9 @@ d.start(port, baud);
 
 * `port` should be like `'/dev/cu.usbserial'` or something similar on MacOS or Linux, or `'COM3'` on Windows
 * `baud` should be like `115200`, or whatever you configured your Devialet to be (see above)
+
+
+
+```javascript
+d.stop();
+```
