@@ -1,0 +1,11 @@
+{
+  "name": "devialet-expert",
+  "version": "1.0.0",
+  "description": "Devialet Expert Line Device Control via RS232",
+  "main": "lib.js",
+  "author": "Roon Labs, LLC",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "serialport": "^4.0.1"
+  }
+}
