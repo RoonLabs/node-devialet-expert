@@ -47,5 +47,5 @@ Connecting to the Devialet Expert device:
 d.start(port, baud);
 ```
 
-* `port` should be like `'/dev/cu.usbserial'` or something, or `'COM3'`
-* `baud` should be like `115200`, or whatever you configured your Devialet to be
+* `port` should be like `'/dev/cu.usbserial'` or something similar on MacOS or Linux, or `'COM3'` on Windows
+* `baud` should be like `115200`, or whatever you configured your Devialet to be (see above)
